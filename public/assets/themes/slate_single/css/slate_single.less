@@ -1,3 +1,44 @@
+//
+// Variables
+// --------------------------------------------------
+@sltheme-bgcolor:        #626063; //#6c7a95; //#626063; //#478384; //#5b7e91; //#406082;
+@sltheme-color:          lighten(@sltheme-bgcolor, 40%); //#E6EBF0;
+@sltheme-linkcolor:      #FFFFFF;
+@sltheme-padding:        15px;
+
+// Scaffolding
+// -------------------------
+@body-bg:               @sltheme-bgcolor; // #fff;
+
+// Iconography
+// -------------------------
+@icon-font-path:          "@{componentpath}/bootstrap/dist/fonts/";
+@icon-font-name:          "glyphicons-halflings-regular";
+
+// Navbar
+// -------------------------
+@navbar-default-color:             @sltheme-color; // #777;
+@navbar-default-bg:                @sltheme-bgcolor; // #f8f8f8;
+
+// Navbar links
+@navbar-default-link-color:                @sltheme-color; // #777;
+@navbar-default-link-hover-color:          @sltheme-linkcolor; // #333;
+@navbar-default-link-active-color:         @sltheme-linkcolor; // #555;
+@navbar-default-link-disabled-color:       @sltheme-color; // #ccc;
+
+// Navbar brand label
+@navbar-default-brand-hover-color:         @navbar-default-link-hover-color; // darken(@navbar-default-brand-color, 10%);
+
+// Container sizes
+// --------------------------------------------------
+// Small screen / tablet
+@container-sm:                 auto; // @container-tablet;
+// Medium screen / desktop
+@container-md:                 auto; // @container-desktop;
+// Large screen / wide desktop
+@container-lg:                 auto; // @container-large-desktop;
+
+// --------------------------------------------------
 #main-contents {
 	.make-xs-column(12);
 	background-color: #fff;

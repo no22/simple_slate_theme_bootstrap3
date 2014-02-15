@@ -2,7 +2,7 @@
 	"name" : "slate_theme_bootstrap3",
 	"version" : "0.1.0",
 	"dependencies" : {
-		"bootstrap" : "~3.0",
-		"jquery"    : "~2.0"
+		"bootstrap" : "~3",
+		"jquery"    : "~1"
 	}
 }
